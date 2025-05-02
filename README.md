@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Simplificador de Textos Técnicos
 
-## Getting Started
+Um app web que traduz *"tecniquês"* para o bom e velho português claro. Ideal para estudantes, curiosos, profissionais multitarefa e quem mais quiser entender textos técnicos.
 
-First, run the development server:
+## ✨ Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ✅ Colar ou digitar textos técnicos
+- 🚀 Processamento assíncrono com feedback visual
+- 📄 Renderização com suporte a Markdown
+- 📱 Design responsivo, limpo e intuitivo
+- 🧠 Simplicidade com inteligência (usa LLM via `@google/genai`)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias e Stacks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
+- **Next.js 15** – O cérebro da operação. Roteamento, SSR, e App Router.
+- **React 19** – Reatividade de última geração com Server Actions.
+- **TailwindCSS v4** – Estilização rápida e utilitária com suporte a dark mode.
+- **lucide-react** – Ícones minimalistas para uma UI moderna.
+- **react-markdown** – Para exibir o resultado da simplificação com elegância.
 
-## Learn More
+### Backend (server actions)
+- **@google/genai** – API oficial do Google Gemini para IA generativa.
+- **Server Actions** – Chamadas diretas ao backend com ergonomia de frontend.
 
-To learn more about Next.js, take a look at the following resources:
+### Dev Experience
+- **TypeScript v5** – Tipagem estática que previne bugs e melhora DX.
+- **ESLint + eslint-config-next** – Para manter o código cheiroso e padronizado.
+- **PostCSS + Tailwind Typography** – Estilização refinada de texto, perfeita para ler.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
